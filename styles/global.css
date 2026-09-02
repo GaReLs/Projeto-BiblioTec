@@ -18,5 +18,8 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: white;
     color: var(--texto);
+}
 
+html {
+    scroll-behavior: smooth;
 }
