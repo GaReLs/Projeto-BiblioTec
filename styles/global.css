@@ -11,7 +11,7 @@
     --azul-escuro: #26333D;
     --texto: #26333D;
     --cor-destaque: #2FD6CB;
-
+    --fundos: #E9F0EF;
 }
 
 body {
@@ -22,4 +22,30 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+.cabecalho{
+background-color: var(--azul-escuro);
+
+    display: flex;
+    /* Por padrão o flex vem na direção row/linha */
+    justify-content: space-between;
+    padding: 0 120px;
+    height: 10vh;
+    align-items: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+
+}
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navegacao a {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
 }
